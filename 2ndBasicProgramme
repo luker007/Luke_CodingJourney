@@ -1,0 +1,12 @@
+# Write a program to check whether a triangle can be formed with the given values for the angles.
+
+ang1_input = int(input("Enter 1st Angel: "))
+ang2_input = int(input("Enter 2nd Angel: "))
+ang3_input = int(input("Enter 3rd Angel: "))
+
+ang_sum = ang1_input + ang2_input + ang3_input
+
+if ang_sum == 180:
+    print("Triangle Can be formed!")
+else:
+    print("Triangle cannot be formed")
