@@ -1,0 +1,14 @@
+# Finding the grade from students input of the Mark
+
+Student_Mark = int(input("Enter student's Mark : "))
+
+if Student_Mark >= 90:
+    print("Grade A")
+elif Student_Mark >= 80:
+    print("Grade B")
+elif Student_Mark >= 70:
+    print("Grade C")
+elif Student_Mark >= 60:
+    print("Grade D")
+else:
+    print("Fail")
