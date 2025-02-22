@@ -1,0 +1,9 @@
+# Write a program that takes an integer, then a string, then a char from the user and prints them in the screen.
+
+Integer_input = int(input("Enter Integer : "))
+String_input = input("Enter String: ")
+Char_input = input("Enter Char: ")
+
+print(Integer_input)
+print(String_input)
+print(Char_input)
