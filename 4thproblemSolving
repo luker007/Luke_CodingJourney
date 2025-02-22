@@ -1,0 +1,7 @@
+//#Write a program which takes two values x and y. Prints x for y number of times.
+
+x = int(input("Enter X Value: "))
+y = int(input("Enter Y Value: "))
+
+for _ in range(y):
+    print(x)
